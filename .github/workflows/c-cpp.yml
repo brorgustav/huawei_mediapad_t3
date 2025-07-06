@@ -19,7 +19,7 @@ jobs:
       run: gcc huawei_bootloader_unlocker.c -o huawei_bootloader_unlocker
       
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: huawei_bootloader_unlocker
         path: ./huawei_bootloader_unlocker
