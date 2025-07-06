@@ -3,7 +3,7 @@
  This is intended to be the fastest ever created bootloader unlocker
  */
 
-//  trigger build
+//      trigger build
 #include <signal.h>
 #include <stdlib.h>
 #include <stdio.h>
