@@ -12,7 +12,7 @@
 #include <fcntl.h>
 
 #define LEN 64
-#define ATTEMPTS_BEFORE_REBOOT 4
+#define ATTEMPTS_BEFORE_REBOOT 1
 
 unsigned long long base_start = 1000000000000000;
 
