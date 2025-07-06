@@ -16,11 +16,9 @@ jobs:
       uses: actions/checkout@v4
       
     - name: Compile .c file
-      run: gcc huawei_bootloader_unlocker.c -o huawei_bootloader_unlocker
-      
+      run: gcc huawei_mediapad_t3.c -o huawei_mediapad_t3
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: huawei_bootloader_unlocker
-        path: ./huawei_bootloader_unlocker
-      
+        name: huawei_mediapad_t3
+        path: ./huawei_mediapad_t3
